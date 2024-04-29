@@ -1,0 +1,174 @@
+@mixin Title-XXl {
+  font-size: 17.67869rem;
+  font-weight: 700;
+}
+
+@mixin Title-Xl {
+  font-size: 2.75rem;
+  font-weight: 500;
+  line-height: 3.125rem;
+}
+
+@mixin Title-L-Bold {
+  font-size: 2.125rem;
+  font-weight: 700;
+}
+
+@mixin Title-M {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+@mixin Title-s {
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+@mixin Title-Xs {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+@mixin Mobile-L {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+@mixin Mobile-M {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+@mixin Mobile-S {
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.035rem;
+}
+
+@mixin Underline-XL {
+  font-size: 3.125rem;
+  font-weight: 500;
+  text-decoration-line: underline;
+}
+
+@mixin Underline-L {
+  font-size: 2.75rem;
+  font-weight: 500;
+  text-decoration-line: underline;
+}
+
+@mixin Title-M-Underline {
+  font-size: 2.125rem;
+  font-weight: 500;
+  text-decoration-line: underline;
+}
+
+@mixin Title-Underline-Regular {
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-decoration-line: underline;
+}
+
+@mixin Title-Underline-S {
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration-line: underline;
+}
+
+@mixin Title-Underline-XS {
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration-line: underline;
+}
+
+@mixin Parah-L-medium {
+  font-size: 1.375rem;
+  font-weight: 500;
+}
+
+@mixin Parah-L {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+@mixin Parah-M {
+  font-size: 1.375rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+@mixin Parah-s {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.625rem;
+}
+
+@mixin Parah-xs {
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+@mixin Parah-s {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+@mixin Parah-xxs {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+@mixin heading-XXL {
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+@mixin heading-XL {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+@mixin heading-L {
+  font-size: 3.125rem;
+  font-weight: 500;
+}
+
+@mixin heading-M {
+  font-size: 3.375rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+@mixin heading-s {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+@mixin heading-Underline-XL {
+  font-size: 3.125rem;
+  font-weight: 500;
+  text-decoration-line: underline;
+}
+
+@mixin Other-XXL {
+  font-size: 10rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+@mixin Other-xl {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+@mixin Other-Xs {
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.035rem;
+}

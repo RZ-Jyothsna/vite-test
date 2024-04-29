@@ -1,0 +1,54 @@
+:root {
+  --Black: #101010;
+  --Offwhite: #F9F6EE;
+  --BeigeGrey: #BDBBB4;
+  --Grey50: #82817F;
+  --yellow: #E8FD88;
+  --LightBlue: #A2CAFC;
+  --purple: #D288FC;
+  --Gray300: #44474C;
+  --DarkBlue: #040406;
+  --Grey20: #EBE9E1;
+  --DarkBeige: #675E5E;
+  --LightYellow: #F5FFC5;
+  --msg-notice: red;
+
+  --color-bg: var(--Offwhite);
+  --font-size: 1.2rem;
+  --font-family: "Outfit", sans-serif;
+  --font-weight: 400;
+
+  --max-width: 90rem;
+  --side-padding: 4rem;
+}
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  background-color: var(--color-bg);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-optical-sizing: auto;
+  font-weight: var(--font-weight);
+  font-style: normal;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+}
+
+.dual-column-section {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  @media screen and (min-width: $bp-lg) {
+    grid-template-rows: unset;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
